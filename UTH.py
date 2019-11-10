@@ -309,7 +309,10 @@ def settle_pretty_payout(hand, dealer, board, bet):
     if d_score == h_score: # push
         return 0
     elif d_score < h_score: # we lost
-        return -bet - 2
+        if d_rank > 8:
+            return -bet - 1
+        else:
+            return -bet - 2
     else: # we won
         payout = bet
         
