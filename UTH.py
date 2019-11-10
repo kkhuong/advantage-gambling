@@ -1701,7 +1701,7 @@ def risk_of_ruin_team(bankroll, bet_size, num_trials = 30):
     return num_people_went_broke / num_trials
 
 def calculate_solo_ROR(units):
-    uth_solo_risk_of_ruins = {5: 0.48, 10: 0.47, 15: 0.38, 20: 0.31, 35: 0.3, 40: 0.34}
+    uth_solo_risk_of_ruins = {5: 0.48, 10: 0.47, 15: 0.38, 20: 0.31, 30: 0.43, 35: 0.3, 40: 0.34, 60: 0.19, 80: 0.08}
     if units in uth_solo_risk_of_ruins.keys():
         return uth_solo_risk_of_ruins[units]
     else:
