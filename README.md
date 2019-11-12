@@ -37,6 +37,8 @@ This library is useful for:
 
 
 To play Three Card Poker and/or to practice the Three Card Poker hole carding strategies:
+
+Enter the Python Repl shell and then
 ```
 >>>> from OCP import *
 >>>> play_holecarding_strategy()
@@ -51,6 +53,8 @@ Dealer's Holecard: Qs
 ```
 
 To calculate player's advantage (i.e., average return) for Three Card Poker with perfect play:
+
+Enter the Python REPL shell and then
 ```
 >>>> from OCP import *
 >>>> calculate_holecarding_ev(trials = 100000)
