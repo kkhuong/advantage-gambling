@@ -7,16 +7,22 @@ Other form of advantage play is counting card at a Blackjack table and play/bet 
 
 With hole card or deck composition information, the advantage player can adjust their strategies and betting amount accordingly to take advantage of the situation.
 
-Unfortunately however, games with an player's edge are games of opportunity and may not be available everywhere. The serious Advantage Players however will still be able to find "good" games by determination, hard work, and knowing what to look for.
 
-### Possible Use of this Code Base
-Eliot Jacobson Ph.D. has shown that for Ultimate Texas Hold'em, the optimal edge is 22.3286% (using perfect computer play---not feasible for those who try to make a couple bucks); the decisions in this code base yields an edge of about 18%. I hope that this code base will enable mathematicians and researchers to find improvements on playing decisions (especially for Ultimate Texas Hold'em) to beat my 18% using only a series of if-statements (similar to what a human can do).
+### Future Work in the AP Field
+Eliot Jacobson Ph.D. has shown that for Ultimate Texas Hold'em, the optimal edge is 22.3286% (using perfect computer play---not feasible in a casino); James Grosjean's playing decisions in _Beyond Counting_ gives an edge of 20.74%; the decisions in this code base gives an edge of about 18%. I hope that this code base will enable mathematicians and researchers to find improvements on playing decisions (especially for Ultimate Texas Hold'em) to beat my 18% or even beat 20.74% by using only logic that a human can process in real time.
+
+
+I plan to study these games in the future when I have time:
+* Mississippi Stud
+* (Card Based) Craps
+* High Card Flush
+* Blackjack --- other counting systems besides Hi-Lo
+
 
 ## This Library
 This repository contains code to simulate casino games that has a possible player's advantage. Example games are
 * Three Card Poker (a.k.a. One Card Poker or OCP) by hole carding
 * Ultimate Texas Hold'em (UTH) by hole carding [still buggy]
-* Mississippi Stud by hole carding [comming soon]
 * Blackjack by counting card [comming soon]
 
 Most of the Advantage Play strategies used in this library are from James Grosjean's _Exhibit CAA: Beyond Counting_ book. Out of respect for Grosjean's hard work, I will not repeat the simple description on how to make decisions in OCP and UTH, but you can probably find it in the source code's logic.
