@@ -31,6 +31,13 @@ The programs in this library can be used to verify that indeed over the long run
 
 
 # Example Usage
+This library is useful for:
+* practicing hole carding strategies.... so you won't make a mistake when there is money on the table
+* calculating house edge... to check that the program has no bug
+* calculating player edge... to see if the games are profitable for you
+* mathematicians and researchers hoping to improve the field or their own game.
+
+
 
 To play Three Card Poker and/or to practice the Three Card Poker hole carding strategies:
 ```
