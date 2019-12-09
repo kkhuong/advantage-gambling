@@ -1,4 +1,4 @@
-from bj_includes import *
+from Blackjack import *
 
 class Config:
     DEALER_SOFT17 = BJ.HIT
