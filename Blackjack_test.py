@@ -1,33 +1,5 @@
 from Blackjack import *
 
-class Config:
-    DEALER_SOFT17 = BJ.HIT
-    MAX_HAND_FROM_SPLIT = 4
-    RESPLIT_ACE = False
-    HIT_SPLIT_ACE = False
-    DOUBLE_AFTER_SPLIT = True
-    DOUBLE_AFTER_HIT = False
-    DOUBLING_RULE = BJ.DA2
-    REDOUBLE = False
-    SPLIT_NONMATCHING_PAINT = True
-    LATE_SURRENDER = True
-    EARLY_SURRENDER = False
-    SURRENDER_AFTER_HIT = False
-    SURRENDER_AFTER_DOUBLE = False
-    SURRENDER_AFTER_SPLIT = False
-    SURRENDER_VS_ACE = True
-    SURRENDER_VS_TEN = True
-    PLAYING_STRATEGY = DecisionChart.bja_h17
-    BETTING_STRATEGY = Betting.linear
-    COUNTING_STRATEGY = Counter.hilo
-    BLACKJACK_PAYS = 1.5
-    PUSH22 = False
-    NO_BUST_STYLE = False
-    CALIFORNIA_STYLE = False
-    BETTING_UNIT_SIZE = 1
-    INITIAL_BANKROLL = 500
-
-
 def sim(trials = 30, decks = 2, pen = 0.75):
     n = trials
 

@@ -1137,8 +1137,6 @@ class DecisionChart:
         pass
 
 
-
-# CONFIG
 class Config:
     DEALER_SOFT17 = BJ.HIT
     MAX_HAND_FROM_SPLIT = 4
