@@ -1,6 +1,6 @@
 # Advantage Play Library
 ## Introduction
-Every casino game has an house edge---that is how the casino makes money in the long run. However, we can overcome the house edge and gain additional edge over the casino if have information on one of the dealer's hole card (e.g. rank, a range of possible rank, or perhaps the exact rank and suit). The most common way to get hole card information is to find an incompetent dealer who flashes her card as she is putting it on the table.
+Every casino game has an house edge---that is how the casino makes money in the long run. However, we can overcome the house edge and gain additional edge over the casino if have information on one of the dealer's hole card (e.g. rank, a range of possible rank, or perhaps the exact rank and suit). The most common way to get hole card information is to find an incompetent dealer who flashes their card as they are putting it on the table.
 
 Other form of advantage play is counting card at a Blackjack table and play/bet accordingly to "the count": an indicator of player's advantage and expected return.
 
